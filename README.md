@@ -1,4 +1,4 @@
-# NoSQL.pl
+# SQL.pl
 
-* Polish website on No-SQL databases:
-  * http://nosql.pl/
+* Polish website on SQL databases:
+  * http://sql.pl/
