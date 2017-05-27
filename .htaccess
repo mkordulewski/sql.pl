@@ -2,3 +2,8 @@ RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^[^.]+\.(sql\.pl)$ [NC]
 RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L,NE]
+
+RewriteCond %{REQUEST_URI} ^/404?$
+RewriteRule ^(.*)$ /404.html [L]
+
+ErrorDocument 404 /404.php
